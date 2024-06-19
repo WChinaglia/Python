@@ -1,0 +1,24 @@
+Jogo de "forca" tradicional para dois jogadores. Código criado por Wildson Chinaglia em 09/12/2023. 
+
+Objetivo é o JOGADOR_2 tentar adivinhar a palavra digitada por JOGADOR_1.
+
+FUNCIONAMENTO:
+- JOGADOR_1 deve digitar uma palavra em letras maiúsculas ou minúsculas, com ou sem acentos (recomenda-se usar acentos).
+  Palavras com 2 ou menos caracteres e/ou com números tornam a entrada inválida e requisitada novamente.
+  Pode-se utilizar palavras compostas, como "GUARDA-CHUVA", mas o hífen será exibido para exaltar a palavra como composta.
+
+- JOGADOR_2 "chuta" uma letra (novamente, independente de acentos ou caixa alta/baixa) e pressiona ENTER. 
+  Caso a letra faça parte da palavra, esta será exibida no lugar dos traços correspondentes. Do contrário, uma parte do 
+  "corpo" do boneco será colocada na forca e a letra será inserida na lista de chutes errados.
+
+ - O JOGADOR_2 será vencedor se completar a palavra antes de gastar todos os 6 palpites ou arriscar tudo num chute, ou seja,
+  digitar a palavra completa de uma vez.
+
+  ATENÇÃO: Caso a palavra não seja digitada exatamente como é, com hífens e acentos, NÃO contará como um acerto. 
+  Neste caso, a vitória será instantaneamente do JOGADOR_1.
+
+ - Depois de 6 palpites errados, o boneco fica completo e o fim do jogo é anunciado, dando a vitória ao JOGADOR_1. 
+  Cabe ao vencedor decidir dizer ou não qual era a palavra correta.
+
+Para jogar mais uma vez, é preciso rodar o código novamente.
+
