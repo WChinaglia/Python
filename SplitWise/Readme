@@ -1,0 +1,26 @@
+Divisão de Contas - Código que executa função similar ao App "SplitWise"
+Código criado por Wildson Chinaglia em 19/02/2024
+
+FUNCIONAMENTO:
+ 1) Ao executar o código, é requisitado que digite o nome de uma das pessoas que irão
+  dividir uma conta. Logo após, é necessário inserir o valor gasto; use a nomenclatura
+  padrão do Python para valores float, exemplo: 1920.75 para R$1.920,75.
+
+ 2) O programa perguntará se deseja incluir mais pessoas, "s" para SIM e "n" para NÃO.
+  Ao entrar com "s", você voltará para o processo 1.
+  Usando "n" (ou qualquer outro caractere), o processo de adicionar pessoas é encerrado.
+
+ 3) O programa apresenta os valores total gasto, valor por pessoa, quem deve pagar e quanto,
+  quem deve receber e quanto. Mais abaixo, o programa indica quem deve pagar para quem e o valor
+  total devido.
+
+
+NOTA: Em divisões não exatas, o valor faltante ou excedente é dividido a cada 0.01 (1 centavo) 
+entre quem precisa pagar ou entre quem precisa receber, respectivamente.
+
+Exemplo 1 - dois devedores:
+Saldo negativo (faltaram) 0.02 => Devedor_1 - 0.01 ; Devedor_2 - 0.01 (dívida aumenta)
+
+Exemplo 2 - três recebedores:
+Saldo positivo (sobraram) 0.04 => Recebedor_1 + 0.01 ; Recebedor_2 + 0.01 ;
+                                  Recebedor_3 + 0.01 ; Recebedor_1 + 0.01 (crédito aumenta)
